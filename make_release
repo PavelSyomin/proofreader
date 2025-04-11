@@ -1,5 +1,5 @@
 #! /bin/sh
 
-zip -r --filesync "proofreader_$1.zip" administrator/ media/ plugins/ site/ script.php proofreader.xml index.html LICENSE.txt
+zip -r --filesync "proofreader-legacy-$1.zip" administrator/ media/ plugins/ site/ script.php proofreader.xml index.html LICENSE.txt
 
 exit 0
